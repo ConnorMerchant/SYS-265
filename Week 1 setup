@@ -1,0 +1,34 @@
+week 1 setup tasks
+configuring FW01,MGMT01,WKS01,AD01
+joining everything to the domains
+creating accounts both domain and local
+create DNS and AD
+
+FW01
+ip 10.0.5.2 for lan ip 10.0.17.103 for wan
+pfsense 
+
+
+MGMT01
+ip 10.0.5.10
+windows 10
+
+
+AD01
+ip 10.05.5
+windows
+running as DNS and AD
+
+WKS01
+ip 10.0.5.100
+windows 10
+
+
+See lab for reminder on usernames.
+
+
+This week was not to challenging other than the order of instructions in the lab as well as an issues with DNS needing to
+be set to 10.0.5.5 for the wks instead of 10.0.5.2.
+Ran into an error code in server manager, kerberos authentication error, looking into it but it has since disapeared.
+learned how to pull up PRT and A records as well using GET and will be looking into this more.
+
